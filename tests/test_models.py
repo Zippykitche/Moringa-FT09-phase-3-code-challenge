@@ -15,6 +15,7 @@ class TestModels(unittest.TestCase):
     def test_magazine_creation(self):
         magazine = Magazine(1, "Tech Weekly")
         self.assertEqual(magazine.name, "Tech Weekly")
+        # self.assertEqual(magazine.category, "Technology")
 
 if __name__ == "__main__":
     unittest.main()
